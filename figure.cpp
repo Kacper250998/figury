@@ -1,6 +1,5 @@
 #include "figure.h"
 #include <cmath>
-
 // Implementacja metod klasy Circle
 Circle::Circle(const std::string &n, double r) : name(n), radius(r) {}
 
