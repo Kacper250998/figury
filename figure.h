@@ -3,7 +3,6 @@
 
 #include <string>
 
-// Klasa Koło
 class Circle {
 private:
     const std::string name;
@@ -15,7 +14,6 @@ public:
     std::string getName() const;
 };
 
-// Klasa Kwadrat
 class Square {
 private:
     const std::string name;
@@ -27,7 +25,6 @@ public:
     std::string getName() const;
 };
 
-// Klasa Prostokąt
 class Rectangle {
 private:
     const std::string name;
