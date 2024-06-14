@@ -4,12 +4,10 @@
 using namespace std;
 
 int main() {
-    // Tworzenie obiektów różnych figur
     Circle circle("Circle", 5.0);
     Square square("Square", 4.0);
     Rectangle rectangle("Rectangle", 3.0, 6.0);
 
-    // Wyświetlanie obwodu i pola powierzchni każdej figury
     cout << "Figure: " << circle.getName() << endl;
     cout << "Perimeter: " << circle.getPerimeter() << endl;
     cout << "Area: " << circle.getArea() << endl << endl;
